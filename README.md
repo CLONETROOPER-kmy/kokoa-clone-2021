@@ -1,3 +1,3 @@
 # kokoa-clone 2021
 
-It's brilliant!
+And HTML & CSS are powerful
