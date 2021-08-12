@@ -5,6 +5,8 @@
   font-weight: normal;
   font-style: normal;
 }
+@import "reset.css";
+
 body {
   font-family: "HeiroflightBold";
 }
