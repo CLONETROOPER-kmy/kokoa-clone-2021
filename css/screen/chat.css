@@ -112,7 +112,7 @@
 
 .reply {
   position: fixed;
-  top: 0px;
+  bottom: 0px;
   width: 100%;
   background-color: white;
   display: flex;
@@ -198,5 +198,5 @@
   }
 }
 .chat-html {
-  animation: enter-chatroom 0.5s ease-in-out forwards;
+  animation: enter-chatroom 0.5s ease-in-out;
 }
