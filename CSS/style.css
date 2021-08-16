@@ -1,3 +1,24 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "component/status-bar.css";
+@import "component/nav-bar.css";
+@import "component/screen-header.css";
+@import "component/user-component.css";
+@import "component/badge.css";
+@import "component/icon-row.css";
+@import "component/alt-screen-header.css";
+@import "component/no-mbile.css";
+
+/* Screens */
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+
 @font-face {
   font-family: "HeirofLightBold";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff")
@@ -5,31 +26,20 @@
   font-weight: normal;
   font-style: normal;
 }
-@import "reset.css";
+@font-face {
+  font-family: "HeirofLightRegular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
-  font-family: "HeiroflightBold";
-}
-.status-bar {
-  display: flex;
-  justify-content: center;
-}
-.status-bar__column {
-  width: 33%;
-}
-.status-bar__column:first-child span {
-  margin-right: 5px;
-}
-.status-bar__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
-.status-bar__column:last-child {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  font-family: "HeirofLightBold";
+  color: #2e363e;
+  padding-top: 10px;
 }
 
-.status-bar__column .fa-battery-full {
-  margin: 0px 5px;
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
